@@ -34,12 +34,17 @@ body{
     background-color:var(--color-secondary);
     color: var(--color-main);
 }
+
+i{
+    color: var(--color-secondary);
+}
+
 .container{
     background-color: var(--color-secondary);
     max-width:1200px;
     margin:20px auto;
     color:var(--color-main);
-    padding: 20px 30px;
+    padding: 20px 0;
     gap: 10px;
 }
 
@@ -107,4 +112,6 @@ footer{
 .wrapped{
     flex-wrap:wrap
 }
-
+.space-between{
+    justify-content: space-between;
+}
