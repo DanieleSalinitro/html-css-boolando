@@ -35,7 +35,7 @@ body{
     color: var(--color-main);
 }
 
-i{
+i, a{
     color: var(--color-secondary);
 }
 
@@ -103,8 +103,13 @@ img{
 /* footer */
 footer{
     background-color: var(--color-main);
+    color: var(--color-secondary);
+    padding: 30px 0;
 }
-
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* utility flex */
 .d-flex{
     display: flex;
